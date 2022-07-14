@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <style>
+        .parent {
+            width: 200px;
+            height: 300px;
+            background-color: rgb(41, 113, 6);
+            border-radius: 8px;
+            margin: 50px;
+        }
+        
+        .title {
+            background-color: rgb(86, 88, 85);
+            padding: 8px 0px 8px 0px;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .image {
+            height: auto;
+            width: 100%;
+            border-radius: 50%;
+        }
+        
+        .inp {
+            width: 80px;
+            border-radius: 8px;
+            padding: 3px 0px 3px 0px;
+        }
+        
+        .child {
+            text-align: center;
+            margin-top: 5px
+        }
+        
+        .plus {
+            color: red;
+        }
+        
+        .minus {
+            color: green;
+        }
+        
+        label {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .cart {
+            background-color: rgb(253, 242, 4);
+            border-radius: 8px;
+            padding: 8px;
+            margin-top: 5px;
+            font-size: 18px;
+        }
+        
+        .child2 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <h3 class="title"> black formal</h3>
+        <img class="image" src="C:\Users\admin\Downloads\pexels-web-donut-19090.jpg">
+        <div class="child">
+            <label class="plus">+</label>
+            <input class="inp">
+            <label class="minus">-</label>
+
+        </div>
+        <div class="child2">
+            <button class="cart">add to cart</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
